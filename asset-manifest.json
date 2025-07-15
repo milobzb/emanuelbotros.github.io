@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8528611.css",
+    "main.js": "/static/js/main.24179048.js",
+    "static/media/renato2.png": "/static/media/renato2.afca4d78b3b37279e287.png",
+    "static/media/gian.png": "/static/media/gian.0dbd49ab27a6820b6c9e.png",
+    "static/media/tlm.png": "/static/media/tlm.ae0833669bc6bc447398.png",
+    "static/media/nurse.png": "/static/media/nurse.c5045da8bc99def74103.png",
+    "static/media/vault.png": "/static/media/vault.0aa0dad9ad6bf0eff490.png",
+    "static/media/logo-color.png": "/static/media/logo-color.ad9ab84ac48197fb5f65.png",
+    "static/media/RADtransparentHD.png": "/static/media/RADtransparentHD.4a8ba3af60d0e83b69c9.png",
+    "static/media/eiffel.png": "/static/media/eiffel.a9acc66e1d6008eef59e.png",
+    "static/media/Emanuel_Botros_Resume.pdf": "/static/media/Emanuel_Botros_Resume.d92f606b84e709e2bcd6.pdf",
+    "static/media/pyramids.png": "/static/media/pyramids.e9b5fdde3f3d6a65000b.png",
+    "static/media/lift-log.png": "/static/media/lift-log.767ffdb4fef7a4a537bc.png",
+    "static/media/mount-fuji.webp": "/static/media/mount-fuji.01fac67fd25bfd851b18.webp",
+    "static/media/momal.png": "/static/media/momal.14792d65716cdbb496d0.png",
+    "static/media/darya.png": "/static/media/darya.8c053a303f8ebb01d156.png",
+    "static/media/sundeep.png": "/static/media/sundeep.9e30bd56b4957e549bd7.png",
+    "static/media/tom.png": "/static/media/tom.bd129a669d99ab0fd050.png",
+    "index.html": "/index.html",
+    "main.c8528611.css.map": "/static/css/main.c8528611.css.map",
+    "main.24179048.js.map": "/static/js/main.24179048.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8528611.css",
+    "static/js/main.24179048.js"
+  ]
+}

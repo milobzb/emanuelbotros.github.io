@@ -1,0 +1,89 @@
+header {
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  text-align: left;
+}
+
+.header__image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4db5ff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.header__info h1 {
+  font-size: 2.5rem;
+  color: #2a3e63; /* Soft navy blue */
+  font-weight: 700;
+}
+
+.header__info h5 {
+  font-size: 1.1rem;
+  color: #1a2b4c; /* navy blue */
+  margin: 1rem 0;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .header__wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__info h1 {
+    font-size: 2rem;
+  }
+
+  .scroll__down {
+    position: static;
+    transform: none;
+    margin-top: 2rem;
+    display: block;
+  }
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* center vertically */
+  align-items: center;       /* center horizontally */
+  height: 70vh;              /* takes up 70% of the viewport */
+  text-align: center;
+  margin: 0 auto;            /* horizontal centering for safety */
+}
+
+.cta {
+  display: flex;
+  gap: 1rem; /* Or try 1.5rem or 2rem if you want more space */
+  justify-content: center; /* Optional: centers both buttons horizontally */
+  margin-top: 1.5rem; /* Adds space above the buttons */
+}
+
+.header__background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
