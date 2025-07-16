@@ -52,3 +52,10 @@
     background-position: center top;
   }
 }
+
+/* 💻 Laptops and larger */
+@media screen and (min-width: 1025px) {
+  .background-slideshow {
+    background-position: center -6vh; /* 👈 Just a light upward nudge */
+  }
+}
