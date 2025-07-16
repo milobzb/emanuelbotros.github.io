@@ -1,4 +1,4 @@
-.bg-section {
+.bg-section { 
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -22,8 +22,8 @@
   height: 100%;
   background-color: white; /* fallback color */
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: center top; /* ⭐️ CHANGED from center center */
+  background-size: cover;          /* ✅ FULL WIDTH + HEIGHT */
   background-attachment: fixed;
   transition: background-image 1s ease-in-out, background-color 0.2s ease-in-out;
   transform: translateZ(0);
@@ -39,16 +39,16 @@
 /* 📱 Responsive fix for tablets and phones */
 @media screen and (max-width: 768px) {
   .background-slideshow {
-    background-attachment: scroll;
-    background-size: contain;
-    background-position: top center;
+    background-attachment: scroll;       /* 🧠 avoids iOS flicker */
+    background-size: cover;              /* 💡 previously was 'contain' — cover looks better */
+    background-position: center top;
   }
 }
 
 @media screen and (max-width: 480px) {
   .background-slideshow {
     background-attachment: scroll;
-    background-size: 100% auto;
-    background-position: top center;
+    background-size: cover;
+    background-position: center top;
   }
 }
