@@ -36,15 +36,21 @@
   z-index: 1;
 }
 
-/* 📱 Responsive fix for tablets and phones */
-@media screen and (min-width: 810px) and (max-width: 830px) {
+/* iPad Portrait (works fine) */
+@media screen and (max-width: 768px) {
   .background-slideshow {
-    background-position: center -30vh; /* Try -30vh or tweak as needed */
-    background-size: cover;
-    background-attachment: scroll;
+    transform: translateY(-30vh);
+    background-position: center top;
   }
 }
 
+/* iPad Landscape */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .background-slideshow {
+    transform: translateY(-6vh);  /* 👈 play with this */
+    background-position: center top;
+  }
+}
 @media screen and (max-width: 480px) {
   .background-slideshow {
     background-attachment: scroll;
