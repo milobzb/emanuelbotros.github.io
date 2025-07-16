@@ -41,7 +41,7 @@
   .background-slideshow {
     background-attachment: scroll;       /* 🧠 avoids iOS flicker */
     background-size: cover;              /* 💡 previously was 'contain' — cover looks better */
-    background-position: center -6vh;
+    background-position: center top;
   }
 }
 
@@ -49,6 +49,6 @@
   .background-slideshow {
     background-attachment: scroll;
     background-size: cover;
-    background-position: center -6vh;
+    background-position: center top;
   }
 }
