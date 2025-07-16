@@ -37,11 +37,11 @@
 }
 
 /* 📱 Responsive fix for tablets and phones */
-@media screen and (max-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .background-slideshow {
     background-attachment: scroll;       /* 🧠 avoids iOS flicker */
     background-size: cover;              /* 💡 previously was 'contain' — cover looks better */
-    background-position: center -4vh;
+    background-position: center -15vh;
   }
 }
 
