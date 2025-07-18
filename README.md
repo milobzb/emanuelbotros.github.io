@@ -1,6 +1,6 @@
 # 🌐 Emanuel Botros | IT & Cybersecurity Portfolio
 
-Welcome to my personal portfolio website! This project serves as a central hub to showcase who I am, what I’ve built, and where I’m headed in the IT and cybersecurity world. Designed, built, and deployed entirely by me — with a strong focus on responsiveness, performance, and clean design.
+Welcome to my personal portfolio website! This project serves as a central hub to showcase who I am, what I’ve built, and where I’m headed in the IT and Cybersecurity world. Designed, built, and deployed entirely by me, with a strong focus on responsiveness, performance, and clean design.
 
 🔗 Visit the site: [emanuelbotros.com](https://emanuelbotros.com)
 
@@ -10,8 +10,8 @@ Welcome to my personal portfolio website! This project serves as a central hub t
 
 This website highlights:
 
-- 🎓 My academic background (B.S. in IT | M.S. in Cybersecurity in progress)
-- 🛠️ Technical skills in cybersecurity, networking, and systems
+- 🎓 My academic background (B.S. in IT | M.S. in Cybersecurity (In Progress))
+- 🛠️ Technical skills in Cybersecurity, Networking, and Systems
 - 📁 Selected projects with real-world relevance
 - 💬 Testimonials and contact form
 - 📱 Fully responsive design across iPad, iPhone, and desktop
@@ -64,7 +64,7 @@ This project helped me sharpen my skills in:
 
 Want to reach out or collaborate?
 
-📧 [emanuel.botros@outlook.com](mailto:milobzb@gmail.com)  
+📧 [milobzb@gmail.com](mailto:milobzb@gmail.com)  
 🌍 [emanuelbotros.com](https://emanuelbotros.com)  
 🔗 [LinkedIn](https://www.linkedin.com/in/milobzb)
 
