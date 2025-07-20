@@ -47,16 +47,19 @@ const About = () =>
           <p>
   <strong>
     An IT graduate with hands-on experience in troubleshooting, networking, and security, now pursuing a <i>Master's Degree in Cybersecurity</i> at the <strong>University of Central Florida</strong>.
-    <br /><br />My skills include threat analysis, system troubleshooting, and secure network infrastructure. I thrive on solving real-world tech challenges while continuously learning. <br /><br />
-    Inspired by global culture, my portfolio reflects my journey through outdoor destinations like Egypt’s pyramids in Cairo, Japan’s Mount Fuji in Tokyo, and France's Eiffel Tower in Paris. <br /><br />I am also a proud Coptic Orthodox Christian, and my faith deeply shapes my values, work ethic, and sense of purpose throughout my day-to-day life.
+    My skills include threat analysis, system troubleshooting, and secure network infrastructure. I thrive on solving real-world tech challenges while continuously learning. <br /><br />
+    Inspired by global culture, my portfolio reflects my journey through outdoor destinations like Egypt’s Pyramids in Cairo, Japan’s Mount Fuji in Tokyo, and France's Eiffel Tower in Paris. I am also a proud Coptic Orthodox Christian, and my faith deeply shapes my values, work ethic, and sense of purpose throughout my day-to-day life.
   </strong>
 </p>
 
 
-          <a href="#contact" className='btn btn-primary'>Contact Me</a>
-          <a href="https://github.com/milobzb" className='btn' target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://tryhackme.com/p/Milobzb" className='btn btn-primary' target="_blank" rel="noreferrer">TryHackMe</a>
-          <a href="https://www.credly.com/users/emanuel-botros/badges" className='btn' target="_blank" rel="noreferrer">Credly</a>
+          <div className="cta">
+  <a href="#contact" className="btn btn-primary">Contact Me</a>
+  <a href="https://github.com/milobzb" className="btn" target="_blank" rel="noreferrer">GitHub</a>
+  <a href="https://tryhackme.com/p/Milobzb" className="btn btn-primary" target="_blank" rel="noreferrer">TryHackMe</a>
+  <a href="https://www.credly.com/users/emanuel-botros/badges" className="btn" target="_blank" rel="noreferrer">Credly</a>
+</div>
+
         </div>
       </div>
     </section>

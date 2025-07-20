@@ -26,7 +26,7 @@ const Header = () => {
         </div>
       </div>
 
-      <a href="#footer" className='scroll__down'>Scroll To The Bottom</a>
+      
     </header>
   );
 };

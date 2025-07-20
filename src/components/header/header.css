@@ -14,22 +14,22 @@ header {
 }
 
 .header__image img {
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #4db5ff;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 5px solid #4db5ff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
 }
 
 .header__info h1 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   color: #2a3e63; /* Soft navy blue */
   font-weight: 700;
 }
 
 .header__info h5 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #1a2b4c; /* navy blue */
   margin: 1rem 0;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
@@ -41,7 +41,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--color-primary);
 }
 
@@ -86,4 +86,20 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
+}
+
+.cta a {
+  font-size: 1.15rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #3ca0e6;
+  color: white;
 }
