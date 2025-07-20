@@ -103,3 +103,13 @@ header {
   background-color: #3ca0e6;
   color: white;
 }
+
+@media screen and (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 1.5rem; /* adjust as needed */
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+}
