@@ -181,71 +181,61 @@
 }
 
 
-@media screen and (max-width: 480px) {
-  /* 📸 Fix image scaling and spacing */
-
+@media screen and (max-width: 430px) {
+  #about h2 {
+    margin-bottom: 2.25rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
   .about__container {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0 1rem;
     gap: 2rem;
     text-align: center;
-  justify-items: center;
-}
-
+  }
 
   .about__me {
-    width: 85%;
-    margin: 0 auto 2rem;
-    transform: none;
+    width: 90%;
+    margin: 0 auto 1.5rem;
   }
 
   .about__me-image {
     transform: none;
     width: 100%;
     height: auto;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
   }
 
-  /* 📝 Fix paragraph text sizing and spacing */
   .about__content p {
-    font-size: 0.9rem;
-    line-height: 1.6;
-    margin: 1.25rem 0 2rem;
-    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.55;
     padding: 0 1rem;
-    color: #1a2b4c;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin: 1.25rem 0 2rem;
   }
 
-  /* 🧍‍♂️ Add spacing between the title and content */
-  #about h2 {
-    margin-bottom: 2.5rem;
-  }
-
-  /* 🧩 Adjust cards layout for better fit */
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    justify-content: center;
   }
 
   .about__card {
-    padding: 1rem;
+    padding: 0.75rem;
   }
 
   .about__icon {
     font-size: 1.2rem;
+    margin: 0 auto 0.5rem;
+    display: block;
   }
 
   .about__card > h5,
   .about__card > small {
-    font-size: 0.7rem;
-  }
-
-  /* 📲 Make sure everything centers */
-  .about__content {
+    font-size: 0.65rem;
     text-align: center;
-    align-items: center;
-    justify-content: center;
   }
 }
