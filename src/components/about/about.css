@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+
 }
 
 .about__me {
@@ -149,11 +150,6 @@
   }
 }
 
-@media screen and (max-width: 480px) {
-  #about {
-    margin-top: 10rem;
-  }
-}
 
 .btn {
   display: inline-block;
@@ -186,29 +182,48 @@
 
 
 @media screen and (max-width: 480px) {
+  /* 📸 Fix image scaling and spacing */
+
+
   .about__container {
-    display: grid;
     grid-template-columns: 1fr;
     padding: 0 1rem;
     gap: 2rem;
     text-align: center;
-    justify-items: center;
-  }
+  justify-items: center;
+}
+
 
   .about__me {
-    width: 100%;
+    width: 85%;
     margin: 0 auto 2rem;
+    transform: none;
   }
 
   .about__me-image {
     transform: none;
-  }
-
-  .about__content {
     width: 100%;
-    padding: 0 1rem;
+    height: auto;
+    border-radius: 1.5rem;
   }
 
+  /* 📝 Fix paragraph text sizing and spacing */
+  .about__content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 1.25rem 0 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    color: #1a2b4c;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  }
+
+  /* 🧍‍♂️ Add spacing between the title and content */
+  #about h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  /* 🧩 Adjust cards layout for better fit */
   .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -218,20 +233,19 @@
     padding: 1rem;
   }
 
+  .about__icon {
+    font-size: 1.2rem;
+  }
+
   .about__card > h5,
   .about__card > small {
-    display: none;
+    font-size: 0.7rem;
+  }
+
+  /* 📲 Make sure everything centers */
+  .about__content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
-
-
-#about h2 {
-  margin-bottom: 2.5rem;
-}
-
-@media screen and (max-width: 600px) {
-  #about h2 {
-    margin-bottom: 2rem; /* Less space on mobile */
-  }
-}
-
