@@ -24,13 +24,13 @@ header {
 
 .header__info h1 {
   font-size: 2.75rem;
-  color: #2a3e63; /* Soft navy blue */
+  color: #2a3e63;
   font-weight: 700;
 }
 
 .header__info h5 {
   font-size: 1.25rem;
-  color: #1a2b4c; /* navy blue */
+  color: #1a2b4c;
   margin: 1rem 0;
   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
@@ -43,6 +43,79 @@ header {
   font-weight: 300;
   font-size: 1rem;
   color: var(--color-primary);
+}
+
+/* Main container */
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+
+.header__container h1,
+.header__container h5,
+.header__container small,
+.header__container p {
+  text-align: center;
+  margin: 0.25rem 0;
+}
+
+.header__container .btn {
+  margin: 1rem 0.5rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* CTA Buttons */
+.cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.cta a {
+  font-size: 1.15rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta a:hover {
+  background-color: #3ca0e6;
+  color: white;
+}
+
+.header__background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+/* Optional: Light overlay for background readability */
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 0;
+}
+
+.header__container {
+  position: relative;
+  z-index: 1;
 }
 
 /* Responsive */
@@ -64,52 +137,26 @@ header {
   }
 }
 
-.header__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;   /* center vertically */
-  align-items: center;       /* center horizontally */
-  height: 70vh;              /* takes up 70% of the viewport */
-  text-align: center;
-  margin: 0 auto;            /* horizontal centering for safety */
-}
-
-.cta {
-  display: flex;
-  gap: 1rem; /* Or try 1.5rem or 2rem if you want more space */
-  justify-content: center; /* Optional: centers both buttons horizontally */
-  margin-top: 1.5rem; /* Adds space above the buttons */
-}
-
-.header__background {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
-}
-
-.cta a {
-  font-size: 1.15rem;
-  padding: 0.75rem 1.5rem;
-  font-weight: 600;
-  border-radius: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-.cta a:hover {
-  background-color: #3ca0e6;
-  color: white;
-}
-
 @media screen and (max-width: 600px) {
   h1, h2, h3 {
-    font-size: 1.5rem; /* adjust as needed */
+    font-size: 1.5rem;
   }
 
   h5 {
     font-size: 1rem;
+  }
+
+  .cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta a {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .header__image {
+    margin-bottom: 1.5rem;
   }
 }
